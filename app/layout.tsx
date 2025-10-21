@@ -8,11 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <body
-      // style={{
-      //   height: "100vh",
-      // }}
-      >
+      <body>
         <Link href="/">Projects</Link>
         <Link href="/blog">Blog</Link>
         <main>{children}</main>
